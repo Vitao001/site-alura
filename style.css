@@ -1,6 +1,6 @@
 :root{
 
---branco-principal:white;
+a--branco-principal:white;
   --cinza-secundario: gray;
   --botao-azul:blue;
   --cord-fundo:black;
@@ -15,6 +15,42 @@ background-color:black;
 }
 
 principal{
-  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GvQHOqnR9ui8LVEqgDkuz3WODohmJ7AjJNlptcg4TXpMf_9FP3txipk&s=10");
+  background-image:url(".img/Backgroung.png");
 
-backgrownd-size: contain;
+  backgrownd-size: contain;
+  Align-items: center;
+  text-align: center;
+}
+
+
+.container__botao {
+   backgrou-color: var(--botao-azul);
+   color:white;
+   border-radius: 5px;
+   display: block;
+   border: 2px solid var(--branco-principal);
+   text-decoration: none;
+margin-bottom: 1em;
+}
+
+
+.container{ height: 100vh;
+   display:grid;
+   border-radius: 5px;
+padding: 1em;
+           grind-templante-columms: 50%;
+
+   .botao_secundario {
+       backgroud-color: transparent;
+       background-color: transparent;
+border: 2px  solin  var(--branco-principal);
+        }
+
+
+        .comtainer__imagem {
+            margin: 1em 0 2em 0;
+        }
+
+           .container__caixa{
+               margin: 0 6em;
+           }
